@@ -1,0 +1,26 @@
+{
+  "short_name": "Sh3riff.me",
+  "name": "Sh3riff.me | Fullstack Web Developer",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000040",
+  "background_color": "#000040",
+  "orientation": "natural"
+}
