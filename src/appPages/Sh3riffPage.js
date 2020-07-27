@@ -146,7 +146,7 @@ const Sh3riffPage = () => {
             <CONTENT>
                 <h1> Web Developer </h1>
                 <img src={pix} alt="sheriff"/>
-                <p > Hi, welcome to <b>sh3riff.me</b> I am Olowolagba Sheriff, a fullstack web developer with an ever expanding <i>stack.</i> I build <b>performant</b> web apps using modern best practices. The <span> <NavLink to='/browser'> <BrowserSVG/> Browser </NavLink></span> App has a list of project I have create overtime.</p>
+                <p > Hi, welcome to <b>sh3riff.me</b> I am Olowolagba Sheriff, a fullstack web developer with an ever expanding <i>stack.</i> I build <b>performant</b> web & native apps using modern best practices. This portfolio has links to other projects I have create overtime.</p>
                 <h1> Tech Stack </h1>          
                 <p> Technology in my stack include but no limited to</p>
                 <ul>
@@ -156,9 +156,11 @@ const Sh3riffPage = () => {
                     <List mgl="7.5vmin"> <img src={icon192} alt="sh3riff.me icon"/>JavaScript (ES6+)</List>
                     <List mgl="10vmin"> <img src={icon192} alt="sh3riff.me icon"/>PWA</List>
                     <List mgl="12.5vmin"> <img src={icon192} alt="sh3riff.me icon"/>React</List>
-                    <List mgl="10vmin"> <img src={icon192} alt="sh3riff.me icon"/>Next JS</List>
-                    <List mgl="7.5vmin"> <img src={icon192} alt="sh3riff.me icon"/>Node JS</List>
-                    <List mgl="5vmin"> <img src={icon192} alt="sh3riff.me icon"/>Express</List>
+                    <List mgl="15vmin"> <img src={icon192} alt="sh3riff.me icon"/>React Native</List>
+                    <List mgl="12.5vmin"> <img src={icon192} alt="sh3riff.me icon"/>Next JS</List>
+                    <List mgl="10vmin"> <img src={icon192} alt="sh3riff.me icon"/>Node JS</List>
+                    <List mgl="7.5vmin"> <img src={icon192} alt="sh3riff.me icon"/>Express</List>
+                    <List mgl="5vmin"> <img src={icon192} alt="sh3riff.me icon"/>MongoDB</List>
                     <List mgl="2.5vmin"> <img src={icon192} alt="sh3riff.me icon"/>AWS (Serverless)</List>
                     <List> <img src={icon192} alt="sh3riff.me icon"/>More ...</List>
                 </ul>

@@ -55,7 +55,7 @@ const HomeScreen = () => {
             </Container>
             <Container>
                 <Hom size="6vmin"><TimeOfTheDay /></Hom>                       
-                <Hom size="8vmin" bold><UserName /></Hom>                       
+                <Hom size="8vmin" bold><UserName /></Hom>                    
             </Container>
             <Hom as="h1" size="5vmin" bold change>Welcome to my Web Dev Portfolio</Hom>         
         </Display>

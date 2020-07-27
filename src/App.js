@@ -8,10 +8,12 @@ import NavContextProvider from './contexts/NavContext';
 import StatusTray from './components/StatusTray';
 import NavContainer from './components/NavContainer';
 import Sh3riffPage from './appPages/Sh3riffPage';
-import BrowserPage from './appPages/BrowserPage';
+import BankAppPage from './appPages/BankAppPage';
 import CalculatorPage from './appPages/CalculatorPage';
 import CalendarPage from './appPages/CalendarPage';
+import DownloadPage from './appPages/DownloadPage';
 import HomePage from './appPages/HomePage';
+import MapAppPage from './appPages/MapAppPage';
 import ProfilePage from './appPages/ProfilePage';
 import SettingsPage from './appPages/SettingsPage';
 import TimexPage from './appPages/TimexPage';
@@ -42,9 +44,11 @@ const App = () => {
                     <Phone>
                         <StatusTray />
                             <Route exact path='/' component={HomePage}/>
-                            <Route path='/browser' component={BrowserPage}/>
+                            <Route path='/bankapp' component={BankAppPage}/>
                             <Route path='/calculator' component={CalculatorPage}/>
                             <Route path='/calendar' component={CalendarPage}/>
+                            <Route path='/downloads' component={DownloadPage}/>
+                            <Route path='/map' component={MapAppPage}/>
                             <Route path='/profile' component={ProfilePage}/>
                             <Route path='/settings' component={SettingsPage}/>                    
                             <Route path='/sh3riff' component={Sh3riffPage}/>

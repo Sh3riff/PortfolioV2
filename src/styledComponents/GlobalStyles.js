@@ -113,3 +113,41 @@ export const Content = styled.div`
         padding: 0;
     }
 `;
+
+export const ExternalApp = styled.div`
+    position: relative;
+    height: calc(100% - 8vh);
+    width: 100%;    
+    padding: 2.5vw;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h3{
+        font-size: calc(1.125rem + ((1vw - 3.75px) * 1.2109));
+        margin: calc(1.125rem + ((1vw - 3.75px) * 1.2109)) 0;
+    }
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: ${props => props.theme.color.primary};
+        color: ${props => props.theme.color.neutral};
+        padding: 1vmin 3vmin;
+        border-radius: 5vmin;
+        border: 1vmin solid ${props => props.theme.color.accent};
+        font-size: 5vmin;            
+        box-shadow: 0 .5vw  ${props => props.theme.color.neutral}, 0 1vw  ${props => props.theme.color.primary};
+        &:hover, &:active{
+            position: relative;
+            top: .5vw;
+            box-shadow: 0 .5vw  ${props => props.theme.color.primary};
+        }
+    }
+
+    @media (orientation: landscape){
+        height: 100%;       
+        padding: 0;
+    }
+`;

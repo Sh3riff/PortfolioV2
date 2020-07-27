@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { PageContainer, Topic, Content } from '../styledComponents/GlobalStyles';
 import menuviewH from '../img/menuviewH.jpg';
 import menuviewV from '../img/menuviewV.jpg'
-import  { SheriffSVG, BrowserSVG, CalculatorSVG, CalendarSVG, ProfileSVG, SettingsSVG, TimeXSVG } from '../components/SVG';
+import  { SheriffSVG, BankSVG, GlobeSVG, CalculatorSVG, CalendarSVG, DownloadSVG, ProfileSVG, SettingsSVG, TimeXSVG } from '../components/SVG';
 
 const MenuPageContainer = styled(PageContainer)`
     background-image: url(${menuviewH});
@@ -90,9 +90,11 @@ const MenuContent = styled(Content)`
 const Menu = () => {
     const appList =[
         {link: 'sh3riff', svg: <SheriffSVG />, name: 'Sh3riff.me', id: 'sh3riff.me'},
-        {link: 'browser', svg: <BrowserSVG />, name: 'Browser', id: 'browser'},
+        {link: 'bankapp', svg: <BankSVG />, name: 'Bank App', id: 'bankapp'},
         {link: 'calculator', svg: <CalculatorSVG />, name: 'Calculator', id: 'calculator'},
         {link: 'calendar', svg: <CalendarSVG />, name: 'Calendar', id: 'calendar'},
+        {link: 'downloads', svg: <DownloadSVG />, name: 'downloads', id: 'downloads'},
+        {link: 'map', svg: <GlobeSVG />, name: 'Map', id: 'map'},
         {link: 'profile', svg: <ProfileSVG />, name: 'Profile', id: 'profile'},
         {link: 'settings', svg: <SettingsSVG />, name: 'Settings', id: 'settings'},
         {link: 'timex', svg: <TimeXSVG />, name: 'Time-X', id: 'time-X'},
